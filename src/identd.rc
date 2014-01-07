@@ -1,0 +1,68 @@
+#define  ERROR_1      1
+#define  ERROR_2      2
+#define  ERROR_3      3
+#define  ERROR_4      4
+#define  ERROR_5      5
+#define  ERROR_6      6
+#define  ERROR_7      7
+#define  ERROR_8      8
+#define  ERROR_9      9
+#define  ERROR_10    10
+
+#define  INFO_1      20
+
+#define  SYSNAM_1    21
+#define  SYSNAM_2    22
+#define  SYSNAM_3    23
+#define  SYSNAM_4    24
+
+#define  CHAR_1      30
+#define  CHAR_2      31
+#define  CHAR_3      32
+#define  CHAR_4      33
+#define  CHAR_5      34
+#define  CHAR_6      35
+#define  CHAR_7      36
+#define  CHAR_8      37
+#define  CHAR_9      38
+#define  CHAR_10     39
+
+#define  STERROR_1   40
+#define  STERROR_2   41
+
+STRINGTABLE  PRELOAD  MOVEABLE
+
+BEGIN
+
+STERROR_1 "Error: alternate character set must be 1-10"
+
+ERROR_1   "Error: Bad set socket options."
+ERROR_2   "Error: Bad reset sock_init()."
+ERROR_3   "Error: Bad socket socket()."
+ERROR_4   "Error: Bad socket bind()."
+ERROR_5   "Error: Bad socket listen()."
+ERROR_6   "Error: Bad socket accept()."
+ERROR_7   "Error: Bad socket os2_select()."
+ERROR_8   "Error: client socket close error."
+ERROR_9   "Error: server socket close error."
+ERROR_10  "Error: send error."
+
+INFO_1    "Identd/2 starting"
+
+SYSNAM_1  "OS/2"
+SYSNAM_2  "eCS"
+SYSNAM_3  "UNIX"
+SYSNAM_4  "OTHER"
+
+CHAR_1    "US-ASCII"
+CHAR_2    "ISO-8859-1"
+CHAR_3    "ISO-8859-2"
+CHAR_4    "ISO-8859-3"
+CHAR_5    "ISO-8859-4"
+CHAR_6    "ISO-8859-5"
+CHAR_7    "ISO-8859-6"
+CHAR_8    "ISO-8859-7"
+CHAR_9    "ISO-8859-8"
+CHAR_10   "ISO-8859-9"
+
+END
